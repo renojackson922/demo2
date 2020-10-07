@@ -1,0 +1,4 @@
+spring:
+  mustache:    suffix: .html
+    charset: UTF-8
+    cache: false
