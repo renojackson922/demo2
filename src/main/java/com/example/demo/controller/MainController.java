@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.consume.KakaoConsume;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +16,8 @@ public class MainController {
 
 	@GetMapping("/kakaotest")
 	public String KakaoTest(Model model){
+
+
 		return "kakao";
 	}
 
